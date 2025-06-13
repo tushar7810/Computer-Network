@@ -2,12 +2,11 @@
 #include<string.h>
 
 void main(){
-
     // Generator
 
-    char data[20] , divisor[10], data1[20];
+    char data[20] , divisor[6], data1[20];
     int dl,divl , i,j;
-    printf("\n Enter the input data : ") ;
+    printf("\nEnter the input data : ") ;
     gets(data);
     printf("Enter the coefficienet of geretor polynomial : ");
     gets(divisor);
@@ -38,7 +37,6 @@ void main(){
     }
 
     printf("\n The codeword is : %s" , data);
-    // return 0;
 
     /*
     Enter the input data : 100100

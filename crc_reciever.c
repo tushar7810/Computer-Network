@@ -2,7 +2,6 @@
 #include<string.h>
 
 void main (){
-
     // reciever
 
     int dl,divl,i,j;
@@ -43,5 +42,5 @@ Enter the cofficient of divisor : 1101
 
 Original data receive
 
- Actual data : 1 0 0 1 0 0
+Actual data : 1 0 0 1 0 0
 */
