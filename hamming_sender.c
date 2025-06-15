@@ -3,6 +3,7 @@
 #include<string.h>
 
 int main (){
+    // sender
     char data[20];
     int data1[10],data2[10] ;
     int dl,r,i=0,j=0,k=0,z,c;
@@ -15,7 +16,7 @@ int main (){
     }
     
     r = i;
-    printf("\n No of redundent bit : %d\n ", r);
+    printf("\nNo of redundent bit : %d\n ", r);
 
     for(i =0;i<dl;i++){
         data1[i] = data[i] - 48;

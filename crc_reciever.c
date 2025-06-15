@@ -25,7 +25,8 @@ void main (){
 
     j=0; 
     for(i=dl-(divl-1);i<dl;i++) 
-    j=j+data[i]-48; 
+        j=j+data[i]-48; 
+        
     if(j==0){ 
         printf("\nOriginal data receive\n"); 
         printf("\n Actual data : "); 

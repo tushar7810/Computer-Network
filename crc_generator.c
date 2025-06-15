@@ -3,7 +3,6 @@
 
 void main(){
     // Generator
-
     char data[20] , divisor[6], data1[20];
     int dl,divl , i,j;
     printf("\nEnter the input data : ") ;
@@ -31,7 +30,6 @@ void main(){
         }
     }
 
-    
     for(i=dl;i<dl+ (divl -1); i++){
         data[i] = data1[i];
     }
